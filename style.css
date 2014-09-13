@@ -8830,9 +8830,7 @@ body,.container-fluid,.students-next-year {
     padding-right: 2px;
 }
 
-.students-next-year .project .due span {
-    /* visibility: visible; */
-}
+.students-next-year .project:hover .name
 
 .students-next-year .project:hover .name .due {
     color: #fff;
