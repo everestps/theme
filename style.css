@@ -10,10 +10,6 @@
     display: block;
 }
 
-* {
-  text-decoration: none;
-}
-
 audio,canvas,video {
     display: inline-block;
     *display: inline;
