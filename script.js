@@ -1,8 +1,5 @@
 console.log("PLP Theme activated")
 document.styleSheets[0].disabled = true;
-function remove(element) {
-    element.parentNode.removeChild(element);
-}
 $('a.brand').html('<img alt="Logo-horiz" src="/assets/logo-horiz-390ef8d2489bce7aa07b97b813f028f8.png">');
 $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-user"]').html('Alex<b class="caret"></b>');
 $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-help"]').remove();
