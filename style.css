@@ -10,10 +10,6 @@
     display: block;
 }
 
-* {
-  text-decoration: underline;
-}
-
 audio,canvas,video {
     display: inline-block;
     *display: inline;
