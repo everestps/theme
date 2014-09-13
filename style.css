@@ -8820,7 +8820,6 @@ body,.container-fluid,.students-next-year {
     position: relative;
     white-space: nowrap;
     text-overflow: ellipsis;
-    border: 1px solid #555;
     color: #fff;
 }
 
@@ -8834,12 +8833,8 @@ body,.container-fluid,.students-next-year {
     /* visibility: visible; */
 }
 
-.students-next-year .project:hover .name {
-    color: #075a67;
-}
-
-.students-next-year .project:hover .due {
-    color: #555;
+.students-next-year .project:hover .name .due {
+    color: #fff;
 }
 
 .students-next-year .project:hover .due span {
