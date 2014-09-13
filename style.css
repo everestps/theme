@@ -8820,6 +8820,7 @@ body,.container-fluid,.students-next-year {
     position: relative;
     white-space: nowrap;
     text-overflow: ellipsis;
+    border: 1px solid #555;
     color: #fff;
 }
 
