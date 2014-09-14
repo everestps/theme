@@ -28,6 +28,7 @@ $("body").keydown(function(e) {
     window.location.href = 'https://app.mysummitps.org/my/grades';
   }
   if(e.keyCode == 63) {
+    console.log('modal pls')
     $('#keyModal').modal()
   }
 });
