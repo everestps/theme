@@ -5,7 +5,6 @@ $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-user"]').html('Ale
 $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-help"]').remove();
 $('.the-line').hide();
 $('title').html('PLP');
-$('body').append('<div id="keyModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="keyModalLabel" aria-hidden="true"><div class="modal-body"><table class="table"><tbody><tr><th></th><th>Key shortcuts</th></tr><tr><td><kbd>d</kbd></td><td>Dashboard (Home Page)</td></tr><tr><td><kbd>y</kbd></td><td>This Year</td></tr><tr><td><kbd>g</kbd></td><td>Grades</td></tr><tr><td><kbd>r</kbd></td><td>Reflections</td></tr><tr><td><kbd>c</kbd></td><td>College</td></tr></tbody></table></div><div class="modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">Close</button></div></div>');
 var toggle = "javascript:$('.the-line').toggle()";
 $('ul#dropdown-user>li').append('<a href="' + toggle + '">Toggle Line</a>')
 $("body").keydown(function(e) {
@@ -26,9 +25,6 @@ $("body").keydown(function(e) {
   }
   if(e.keyCode == 71) {
     window.location.href = 'https://app.mysummitps.org/my/grades';
-  }
-  if(e.keyCode == 63) {
-    $('#keyModal').modal()
   }
 });
 $('.icon-holder').remove()
