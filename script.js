@@ -27,9 +27,6 @@ $("body").keydown(function(e) {
   if(e.keyCode == 71) {
     window.location.href = 'https://app.mysummitps.org/my/grades';
   }
-  // if(e.keyCode == 191) {
-  //   $('#keyModal').modal('toggle');
-  // }
 });
 $('.icon-holder').remove()
 $('.row-fluid>.span8').css('padding-top', '10px')
