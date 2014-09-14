@@ -27,7 +27,7 @@ $("body").keydown(function(e) {
   if(e.keyCode == 71) {
     window.location.href = 'https://app.mysummitps.org/my/grades';
   }
-  if(e.keyCode == 191) {
+  if(e.keyCode == 48) {
     console.log('modal pls')
     $('#keyModal').modal()
   }
