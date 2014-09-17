@@ -7,7 +7,7 @@ $('.the-line').hide();
 $('title').html('PLP');
 var toggle = "javascript:$('.the-line').toggle()";
 $('ul#dropdown-user>li').append('<a href="' + toggle + '">Toggle Line</a>')
-$('.dropdown-menu.pull-right').append('<a href="http://tinyurl.com/everestgrade9" target="_blank">Everest Grade 9 <i class="icon-external-link small"></i></a>');
+$('.dropdown-menu.pull-right').append('<li><a href="http://tinyurl.com/everestgrade9" target="_blank">Everest Grade 9 <i class="icon-external-link small"></i></a></li>');
 $("body").keydown(function(e) {
   if(e.keyCode == 76) {
     $(".the-line").toggle();
