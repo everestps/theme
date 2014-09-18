@@ -20,7 +20,7 @@ $(window).keybind('keydown', {
   'c': function(){window.location.href = 'https://app.mysummitps.org/my/college/step/0'},
   'r': function(){window.location.href = 'https://app.mysummitps.org/my/reflections'},
   'g': function(){window.location.href = 'https://app.mysummitps.org/my/goals'},
-  'S-g': function(){window.location.href = 'https://app.mysummitps.org/my/grades'},
+  'S-g': function(){window.location.href = 'https://app.mysummitps.org/my/grades'}
 });
 $('.icon-holder').remove()
 $('.row-fluid>.span8').css('padding-top', '10px')
