@@ -14,5 +14,13 @@ key('⌘+c, ctrl+c', function(){window.location.href = 'https://app.mysummitps.o
 key('⌥+r, alt+r', function(){window.location.href = 'https://app.mysummitps.org/my/reflections'})
 key('⌘+g, ctrl+g', function(){window.location.href = 'https://app.mysummitps.org/my/goals'})
 key('⌥+g, alt+g', function(){window.location.href = 'https://app.mysummitps.org/my/grades'})
+$(window).keybind('keydown', {
+  'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
+  'y': function(){window.location.href = 'https://app.mysummitps.org/my/year'},
+  'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
+  'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
+  'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
+  'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
+});
 $('.icon-holder').remove()
 $('.row-fluid>.span8').css('padding-top', '10px')
