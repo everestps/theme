@@ -8,12 +8,6 @@ $('title').html('PLP');
 var toggle = "javascript:$('.the-line').toggle()";
 $('ul#dropdown-user>li').append('<a href="' + toggle + '">Toggle Line</a>')
 $('.dropdown-menu.pull-right').append('<li><a href="http://tinyurl.com/everestgrade9" target="_blank">Everest Grade 9 <i class="icon-external-link small"></i></a></li>');
-key('d', function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'})
-key('y', function(){window.location.href = 'https://app.mysummitps.org/my/year'})
-key('⌘+c, ctrl+c', function(){window.location.href = 'https://app.mysummitps.org/my/college/step/0'})
-key('⌥+r, alt+r', function(){window.location.href = 'https://app.mysummitps.org/my/reflections'})
-key('⌘+g, ctrl+g', function(){window.location.href = 'https://app.mysummitps.org/my/goals'})
-key('⌥+g, alt+g', function(){window.location.href = 'https://app.mysummitps.org/my/grades'})
 $(window).keybind('keydown', {
   'd': function(){window.location.href = 'https://app.mysummitps.org/my/dashboard'},
   'y': function(){window.location.href = 'https://app.mysummitps.org/my/year'},
