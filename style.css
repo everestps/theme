@@ -8509,6 +8509,14 @@ ul.log .edit-btns .complete.completed {
 }
 
 .yg {
+  border: 1px solid #d3ac1c;
+  background-color: #f9f9f9;
+  color: #d3ac1c;
+  transition: all 0.3s;
+}
+
+.yg: hover {
+  color: #f9f9f9;
   background-color: #d3ac1c;
 }
 
