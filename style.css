@@ -8555,7 +8555,7 @@ ul.log .edit-btns .complete.completed {
     filter: alpha(opacity=90);
 }
 
-.r.text-only,.g.text-only {
+.r.text-only,.g.text-only,.yg.text-only {
     border: none;
     background: transparent;
 }
