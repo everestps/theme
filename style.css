@@ -7292,7 +7292,7 @@ tr.highlight {
     filter: alpha(opacity=90);
 }
 
-.r.text-only,.g.text-only,.y.text-only {
+.r.text-only,.g.text-only,.yg.text-only {
     border: none;
     background: transparent;
 }
