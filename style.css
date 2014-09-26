@@ -8515,7 +8515,7 @@ ul.log .edit-btns .complete.completed {
   transition: all 0.3s;
 }
 
-.yg: hover {
+.yg:hover {
   color: #f9f9f9;
   background-color: #d3ac1c;
 }
