@@ -1,6 +1,6 @@
 console.log("PLP Theme activated")
 document.styleSheets[0].disabled = true;
-$('a.brand').html('<img alt="Logo-horiz" src="/assets/logo-horiz-390ef8d2489bce7aa07b97b813f028f8.png">');
+$('a.brand').html('<img alt="Logo-horiz" src="/assets/logo-horiz-bcbf020a2ee400540c5cd08c879731f0.png">');
 $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-user"]').html('Alex<b class="caret"></b>');
 $('ul.nav>li.dropdown>a.dropdown-toggle[data-target="dropdown-help"]').remove();
 $('.the-line').hide();
